@@ -6,7 +6,7 @@ function copy(src,dst){
 function main(argv){
     copy(argv[0],argv[1]);
 }
-console.log(provess.argv);
+console.log(process.argv);
 main(process.argv.slice(2));//一个测试
 
 
